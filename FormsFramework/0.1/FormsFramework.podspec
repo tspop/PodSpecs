@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormsFramework"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "A framework for generating forms out of JSON"
   s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
   s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.dependency 'AFNetworking', '1.2.1'
