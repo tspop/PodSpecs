@@ -89,7 +89,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.dependency 'AFNetworking', '1.2.1'
   s.dependency 'TPKeyboardAvoiding'
-  s.dependency 'SDSegmentedControl', '~> 1.0.2'
-
-
+  
 end
