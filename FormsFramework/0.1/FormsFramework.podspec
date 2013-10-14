@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormsFramework"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "A framework for generating forms out of JSON"
   s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
   s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
@@ -87,6 +87,11 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'ActionSheetPicker', '~> 0.0.2'
+  s.dependency 'ActionSheetPicker', '~> 0.0.2'
+  s.dependency 'AFNetworking', '1.2.1'
+  s.dependency 'TPKeyboardAvoiding'
+  s.dependency 'SDSegmentedControl', '~> 1.0.2'
+
 
 end
