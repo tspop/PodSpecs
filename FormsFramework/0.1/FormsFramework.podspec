@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormsFramework"
-  s.version      = "0.4"
+  s.version      = "0.5"
   s.summary      = "A framework for generating forms out of JSON"
   s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
   s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
