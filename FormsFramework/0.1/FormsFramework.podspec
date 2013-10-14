@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FormFramework"
+  s.name         = "FormsFramework"
   s.version      = "0.1"
   s.summary      = "A framework for generating forms out of JSON"
   s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
