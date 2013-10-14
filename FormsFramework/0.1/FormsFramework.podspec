@@ -16,44 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormFramework"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of FormFramework."
-
-  s.description  = <<-DESC
-                   A longer description of FormFramework in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/FormFramework"
-  # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  s.license      = 'MIT (example)'
-  # s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors by using the SCM log. E.g. $ git log. If no email can be
-  #  found CocoaPods accept just the names.
-  #
-
-  s.author       = { "" => "" }
-  # s.authors      = { "" => "", "other author" => "email@address.com" }
-  # s.author       = '', 'other author'
-
+  s.version      = "0.1"
+  s.summary      = "A framework for generating forms out of JSON"
+  s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
+  s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -61,13 +27,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, '5.0'
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
-
+  # s.platform     = :ios, '6.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -75,7 +35,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/FormFramework.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://spop@bitbucket.org/spop/forms-framework.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,7 +47,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
 
   # s.public_header_files = 'Classes/**/*.h'
 
