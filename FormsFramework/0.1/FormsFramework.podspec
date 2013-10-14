@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormsFramework"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "A framework for generating forms out of JSON"
   s.homepage     = "http://spop@bitbucket.org/spop/forms-framework.git"
   s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = 'SomeFramework'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
+  s.frameworks = 'CoreMedia', 'AVFoundation', 'SystemConfiguration', 'Security', 'CFNetwork', 'QuartzCore', 'MediaPlayer', 'MobileCoreServices'
 
   # s.library   = 'iconv'
   # s.libraries = 'iconv', 'xml2'
