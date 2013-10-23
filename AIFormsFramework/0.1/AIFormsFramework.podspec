@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = 'SomeFramework'
-  s.frameworks = 'CoreMedia', 'AVFoundation', 'SystemConfiguration', 'Security', 'CFNetwork', 'QuartzCore', 'MediaPlayer', 'MobileCoreServices'
+  s.frameworks = 'CoreMedia', 'AVFoundation', 'SystemConfiguration', 'Security', 'CFNetwork', 'QuartzCore', 'MediaPlayer', 'MobileCoreServices', 'AssetsLibrary'
 
   # s.library   = 'iconv'
   # s.libraries = 'iconv', 'xml2'
