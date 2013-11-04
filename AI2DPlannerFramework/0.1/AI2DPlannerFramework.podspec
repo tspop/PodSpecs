@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AIFormsFramework"
+  s.name         = "AI2DPlannerFramework"
   s.version      = "0.0.1"
   s.summary      = "A framework for building CAD projects"
   s.homepage     = "https://2dplanner@bitbucket.org/2dplanner/2d-planner.git"
