@@ -48,6 +48,22 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
 
+  non_arc_files = 'Classes/3rd Party/Color Picker/InfColorSquarePicker.m',
+                  'Classes/3rd Party/Color Picker/InfColorBarPicker.m',
+                  'Classes/3rd Party/Color Picker/InfColorIndicatorView.m',
+                  'Classes/3rd Party/Color Picker/InfColorPickerController.m',
+                  'Classes/3rd Party/Color Picker/InfHSBSupport.m',
+                  'Classes/3rd Party/Color Picker/InfSourceColorView.m'
+
+  s.requires_arc = true
+    
+  s.exclude_files = non_arc_files
+  s.subspec 'no-arc' do |sna|
+    sna.requires_arc = false
+    sna.source_files = non_arc_files
+  end
+
+
   # s.public_header_files = 'Classes/**/*.h'
 
 
@@ -60,7 +76,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-    s.resources = "Classes/**/*.xib"
+    s.resources = "Classes/**/*.xib", "Resources/*.{plist,png,jpg}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
