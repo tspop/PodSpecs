@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AI2DPlannerFramework"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A framework for building CAD projects"
   s.homepage     = "https://2dplanner@bitbucket.org/2dplanner/2d-planner.git"
   s.author       = { "Silviu Pop" => "thesilviupop@gmail.com" }
