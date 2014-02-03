@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-    s.resources = "Classes/**/*.xib", "Resources/*.{plist,png,jpg}"
+    s.resources = "Classes/**/*.xib", "Resources/**/*.{plist,png,jpg}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
