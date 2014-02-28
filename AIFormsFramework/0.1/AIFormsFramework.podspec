@@ -86,6 +86,21 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  non_arc_files = 'Classes/Color Picker/InfColorPicker/InfColorSquarePicker.m',
+                  'Classes/Color Picker/InfColorPicker/InfColorBarPicker.m',
+                  'Classes/Color Picker/InfColorPicker/InfColorIndicatorView.m',
+                  'Classes/Color Picker/InfColorPicker/InfColorPickerController.m',
+                  'Classes/Color Picker/InfColorPicker/InfHSBSupport.m',
+                  'Classes/Color Picker/InfColorPicker/InfSourceColorView.m'
+
+  s.requires_arc = true
+    
+  s.exclude_files = non_arc_files
+  s.subspec 'no-arc' do |sna|
+    sna.requires_arc = false
+    sna.source_files = non_arc_files
+  end
+
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.dependency 'AFNetworking', '1.2.1'
   s.dependency 'TPKeyboardAvoiding'
